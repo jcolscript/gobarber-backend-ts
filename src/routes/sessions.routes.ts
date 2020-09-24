@@ -14,8 +14,6 @@ sessionsRouter.post('/', async (request, response) => {
     password,
   });
 
-  user.password = '';
-
   return response.status(201).json({ user, token });
 });
 
