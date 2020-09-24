@@ -42,7 +42,8 @@ class AuthenticateUserService {
       expiresIn,
     });
 
-    user.password = '';
+    // @ts-ignore
+    delete user.password;
 
     return {
       user,

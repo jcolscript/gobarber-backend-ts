@@ -27,6 +27,7 @@
         "argsIgnorePattern": "_"
       }
     ],
+    "@typescript-eslint/ban-ts-comment": "off",
     "class-methods-use-this": "off",
     "camelcase": "off",
     "import/extensions": [
